@@ -54,7 +54,7 @@ pc.defineParameter(
     description="Enable browser-based VNC server.",
     typ=portal.ParameterType.BOOLEAN,
     defaultValue=False,
-    advanced=True,
+    advanced=False,
 )
 
 params = pc.bindParameters()
